@@ -30,13 +30,13 @@ body {
 }
 
 /* Responsive Design: Chhoti screens ke liye grid ko adjust karein */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .image-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for small screens */
+    grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .image-grid {
     grid-template-columns: 1fr; /* 1 column for extra small screens */
   }
